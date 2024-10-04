@@ -1,0 +1,64 @@
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header img {
+    height: 60px;
+}
+
+header h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5em;
+    color: #7ed957;
+}
+
+.navbar-toggler-icon {
+    background-color: #579f46;
+    border-radius: 6px;
+}
+
+.nav-link {
+    color: #7ed957 !important;
+}
+
+.navbar-nav .active{
+    background-color: #579f46 !important;
+    color: #fff !important;
+}
+
+#inicio .container {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+.carousel {
+    background-image:url('./images/carouselbg.png');
+    background-color: #579f46;
+}
+
+#novidades, #linguagens{
+    background-color: #579f46;
+    height: 100h;
+    padding-top: 77px;
+}
+
+h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1em;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.card-body a{
+    background-color: #579f46;
+}
+
+.card-body a:hover{
+    background-color: #7ed957;
+}
